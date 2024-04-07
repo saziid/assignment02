@@ -1,0 +1,68 @@
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: rgb(143, 143, 165);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #777171;
+  }
+  
+  li a.active {
+    color: white;
+  }
+footer{
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(143, 143, 165);
+        color: white;
+        text-align: center;
+        
+      }
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(230, 222, 222);
+    box-shadow: black 0 15px 30px -5px;
+    font-size: 20px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    background-color: rgb(125, 150, 172);
+
+}
+#weatheroutput {
+    display: flex;
+    }
+    .innerstyle {
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 25px;
+        margin: 15px;
+        padding: 15px;
+        background-color: white;
+        width: 30%;
+        background-color: rgb(224, 224, 136);
+      }
